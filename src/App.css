@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Lobster&subset=latin-ext');
+
+body{
+  background: url("bg.png") no-repeat center center fixed;
+  background-size: 100vw 100vh ;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container{
+  width: 750px;
+  margin: 0 auto;
+}
+
+header h1{
+color: white;
+font-family: 'Lobster', cursive;
+text-align: center;
+font-size: 72px;
+}
+
+@media (max-width: 650px){
+
+.container{
+  width: 400px;
+  margin: 0 auto;
+}
+}
+
+@media (max-width:460px){
+  body{
+    background: url("bg.png") no-repeat center center fixed;
+  }
+  .container{
+    width: 310px;
+    margin: 0 auto;
+  }
+  header h1{
+    font-size: 60px;
+    margin:0 auto;
+    padding-bottom: 20px;
+
+}
+}

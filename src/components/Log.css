@@ -1,0 +1,60 @@
+.btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color:#ddbe5c;
+    background-image:  linear-gradient(to right,  #ddbe5c, #cda628);
+    width:320px;
+    height: 50px;
+    display:block;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 16px;
+  }
+  .btn:hover{
+    background-image:  linear-gradient(to right,  #cda628, #ddbe5c);
+    cursor: pointer;
+  }
+  
+  .login-pad{
+    width: 350px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .login-pad p{
+    padding: 30px 0 15px 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .submit-form input{
+    text-align: center;
+    width: 240px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 5px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .submit-button-div{
+    margin-top: 30px;
+  }
+  #submit-btn{
+    width:250px;
+  }
+  
+  @media (max-width:460px){
+    .btn{
+      width: 300px;
+    }
+    .login-pad{
+      width: 300px;
+    }
+  }
+ 
